@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: black;
+    color: white;
+    z-index: 2; /* to keep the navbar over other */
+}
+
+.header-left-section{
+   flex:0.4;   /* alloting 40% of flex to nav menu   */
+}
+
+.header-left-section > h1{
+    font-size: 12px;
+    text-align: center;
+    font-family: "Poppins" , sans-serif;
+}
+
+.nav-menu{
+    display:flex;
+    flex:0.6;
+    justify-content: space-evenly;
+}
+
+.nav-menu > a{
+    cursor:pointer;
+    transition: transform 200ms ease-in-out;
+    padding:10px;
+}
+
+.nav-menu > a:hover{
+    font-family: "Montserrat" , sans-seri;
+    background-color: #87CEEB ;
+    border-radius: 5px;
+    transform: scale(1.2);   
+}
+
+.navbar-collapse {
+   
+    flex-grow: 0 !important;
+    
+}
+
+.nav-menu > a{
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .header-left-section > h1{
+        font-size: 25px;
+    }
+}

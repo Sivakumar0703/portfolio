@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* font-family: "Poppins" , sans-serif; */
+
+.skill{
+    margin: 20px 5px ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .skill-img{
+   width
+} */
+
+
+
+.skill-img > img {
+  /* width:350px; */
+  width: 100%;
+  object-fit: contain; 
+  border-radius: 3px;  
+}
+
+.skill-set > p{
+    text-align: left;
+}
+
+.skill-set{
+    padding: 15px;
+}
+
+.progress-bar{
+    margin-bottom: 10px;
+}
+
+.skill-container-title{
+    font-family: "Poppins" , sans-serif;
+    font-weight: bold;
+    color:white;
+    margin-top: 20px;
+}
+
+.skill-set > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.progress-bar-container{
+    margin: auto;
+    width: 80%;
+}
+
+.css-eglki6-MuiLinearProgress-root {
+ background-color: darkgray;
+}
+
+.bar1 .css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: darkmagenta;
+}
+
+.bar2 .css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: blue;
+}
+
+.bar3 .css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: greenyellow;
+}
+
+.bar4 .css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: green;
+}
+
+.bar5 .css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: navy;
+}
+
+.row>* {
+     flex-shrink: none;
+}
+
+
+
+ @media (min-width: 768px) { 
+    .skill{
+        /* margin: 150px 5px ; */
+        padding:50px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .skill-img{
+       margin-right: 20px;
+       margin: auto 0 !important;
+    }
+    
+    /* .skill-img > img {
+      width:600px;
+      object-fit: contain; 
+      border-radius: 3px;  
+    } */
+    
+    .skill-set > p{
+        text-align: left;
+    }
+    
+    .progress-bar{
+        margin-bottom: 10px;
+    }
+    
+    .skill-container-title{
+        font-family: "Poppins" , sans-serif;
+        font-weight: bold;
+    }
+    
+    .skill-set > p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+  }

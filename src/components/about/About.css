@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.about{
+    background: url('./about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:40vh;
+    position: relative;
+    /* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5); */
+}
+
+.about-container{
+    text-align: left;
+    position: absolute;
+    top:50px;
+    margin-left:10px;
+}
+
+.about-container>h1{
+    font-size: 25px;
+    color:white;
+}
+
+.about-container > a >button{
+     margin-right:10px;
+     padding: 5px;
+     border: none;
+     border-radius: 2px;
+     font-family: "Poppins" , sans-serif;
+}
+
+.resume-btn{
+    color:white;
+    background-color:#f64c08;
+    font-family: "Poppins" , sans-serif;
+}
+
+.project-btn{
+    font-family: "Poppins" , sans-serif;
+    background: transparent;
+    color:white;
+    border:2px solid white !important;
+}
+
+.resume-btn:hover{
+ color:#f64c08;
+ background-color: white;
+ font-weight: 500;
+}
+
+.project-btn:hover{
+    color:black;
+    background-color: white;
+    font-weight: 600;
+   }
+
+
+
+@media (min-width: 768px) {
+
+    .about{
+        background: url('./about.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;
+        position: relative;
+        /* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5); */
+    }
+
+    .about-container{
+        text-align: left;
+        position: absolute;
+        top:150px;
+        margin-left: 50px;
+    }
+    
+    .about-container>h1{
+        font-size: 50px;
+        color:white;
+    }
+    
+    .about-container > a >button{
+         margin-right:25px;
+         padding: 10px;
+         border-radius: 3px;
+    }
+
+
+}
