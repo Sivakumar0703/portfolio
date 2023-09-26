@@ -10,7 +10,7 @@ const About = () => {
           <div className='about-container'>
             <h1>Sivakumar S</h1>
 
-            <a href="#"> {/* have to enter the resume link */}
+            <a href="https://drive.google.com/drive/folders/1WI_jtIk6chckTRzQOr_8k36JmfCTh7H5"> 
               <button className='resume-btn'>Resume</button>
             </a>
 
