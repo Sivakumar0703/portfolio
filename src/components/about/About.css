@@ -35,6 +35,8 @@
 .resume-btn{
     color:white;
     background-color:#f64c08;
+    background-color:#800080;
+    border:2px solid black !important;
     font-family: "Poppins" , sans-serif;
 }
 
@@ -47,13 +49,16 @@
 
 .resume-btn:hover{
  color:#f64c08;
+ color:#800080;
  background-color: white;
+ background-color: #000;
  font-weight: 500;
 }
 
 .project-btn:hover{
     color:black;
     background-color: white;
+    background-color: #800080;
     font-weight: 600;
    }
 
