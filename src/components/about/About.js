@@ -10,7 +10,7 @@ const About = () => {
           <div className='about-container'>
             <h1>Sivakumar S</h1>
 
-            <a href="https://drive.google.com/file/d/1dH0GTVZlTDEW93SGc_AR2UAgcgLppfui/view?usp=drive_link"> 
+            <a href="https://drive.google.com/file/d/1U29pApuGFSlIzQMle2RTLR57noJVK-Sz/view?usp=drive_link"> 
               <button className='resume-btn'>Resume</button>
             </a>
 
