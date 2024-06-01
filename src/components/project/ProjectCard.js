@@ -15,7 +15,7 @@ const ProjectCard = ({img , title , description , link}) => {
   //  },[screenWidth])
 
   return (
-    <a href={link} className='link'>
+    <a href={link} className='link' target='_blank'>
     <div id="project" onMouseEnter={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
     {
         show ? (

@@ -24,9 +24,9 @@ const Contact = () => {
             </div>
 
              <div className='icons'>
-                <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ssivakumar358@gmail.com'> <IconButton> <EmailIcon/> </IconButton> </a>
-                <a href='https://github.com/Sivakumar0703?tab=repositories'> <IconButton> <GitHubIcon/> </IconButton> </a>
-                <a href='https://www.linkedin.com/in/sivakumar-fsd/'> <IconButton> <LinkedInIcon/> </IconButton> </a>
+                <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ssivakumar358@gmail.com' target='_blank'> <IconButton> <EmailIcon/> </IconButton> </a>
+                <a href='https://github.com/Sivakumar0703' target='_blank'> <IconButton> <GitHubIcon/> </IconButton> </a>
+                <a href='https://www.linkedin.com/in/sivakumar-fsd/' target='_blank'> <IconButton> <LinkedInIcon/> </IconButton> </a>
              </div>
 
 
