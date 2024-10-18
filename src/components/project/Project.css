@@ -3,7 +3,10 @@
 #project > img{
     width:300px;
     height:300px;
+    object-fit: cover;
 }
+
+
 
 #project{
     width:300px;
@@ -67,9 +70,42 @@ transform: scale(1.2);
     object-fit: cover;
 } */
 
+#code-btn{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+}
+
+.card-and-btn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.custom-colored-btn-front{
+ background: #C33764;
+ background: -webkit-linear-gradient(to right, #1D2671, #C33764);  
+ background: linear-gradient(to right, #1D2671, #C33764); 
+}
+
+.custom-colored-btn-back{
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #C33764, #1D2671);  
+    background: linear-gradient(to right, #C33764, #1D2671); 
+}
+
 @media (min-width: 768px) { 
     .project-text{
         margin:20px;
-
     }
 }
+
+
+

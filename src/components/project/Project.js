@@ -39,6 +39,29 @@ const Project = () => {
     },
   ];
 
+  const projectCodeLinks = [
+    {
+      // library management
+      front:"https://github.com/Sivakumar0703/library-management",
+      back:"https://github.com/Sivakumar0703/library-management-backend"
+    },
+    {
+      // Blog Writing
+      front:"https://github.com/Sivakumar0703/blog-frontend",
+      back:"https://github.com/Sivakumar0703/blog-backend"
+    },
+    {
+      // Online Products Rental
+      front:"https://github.com/Sivakumar0703/guvi-hackathon2-frontend",
+      back:"https://github.com/Sivakumar0703/guvi-hackathon2-backend"
+    },
+    {
+      // Motorcycle Service Booking
+      front:"https://github.com/Sivakumar0703/Motorcycle-Service-Booking-Frontend",
+      back:"https://github.com/Sivakumar0703/Motorcycle-Service-Booking-Backend"
+    }
+  ]
+
   return (
     <div>
       <p
@@ -60,18 +83,19 @@ const Project = () => {
         Here is my experimental work Which had taught me new things and helped
         to understand the concept further more from my previous understanding.
       </p>
-      <Element className="project">
+      <Element >  {/* className="project" */}
         <div className="project-container">
-          {myProject.map((i) => {
-            return (
+          {myProject.map((i,index) => {
+            return (<>
               <ProjectCard
                 img={i.img}
                 title={i.title}
                 description={i.description}
                 link={i.link}
                 key={i.title}
+                projectCodeLinks={projectCodeLinks[index]}
               />
-            );
+              </>);
           })}
         </div>
       </Element>
